@@ -1,0 +1,21 @@
+<!-- {{LANGUAGE_SPECIFIC}} -->
+<resources>
+    <!-- common -->
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    <string name="clear">清除</string>
+    <string name="reset">重置</string>
+    <string name="needs_microphone">此應用程式需要存取麥克風的權限。</string>
+    <string name="cant_use_microphone">此應用程式未經許可不能使用麥克風。</string>
+    <string name="needs_camera">此應用程式需要存取相機的權限。</string>
+    <string name="cant_use_camera">此應用程式未經許可不能使用相機。</string>
+
+    <!-- main -->
+    <string name="app_name">克拉克拉 Pro</string>
+    <string name="web_view">網頁視圖</string>
+    <string name="progress_bar">進度條</string>
+    <string name="now_starting">克拉克拉啟動過程中...</string>
+
+    <!-- URLs -->
+    <string name="url">file:///android_asset/index.html</string>
+</resources>

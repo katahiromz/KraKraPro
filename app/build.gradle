@@ -1,0 +1,66 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId "com.katahiromz.krakrapro"
+        minSdkVersion 28
+        targetSdkVersion 34
+        versionCode 361
+        versionName "3.6.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    lintOptions {
+        disable "Instantiatable"
+    }
+    namespace 'com.katahiromz.krakrapro'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.activity:activity-ktx:1.8.0'
+
+    // 起動画面表示用。
+    implementation 'androidx.core:core-splashscreen:1.0.1'
+
+    // レイアウト管理用。
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // ダイアログ表示用。
+    implementation 'com.google.android.material:material:1.10.0'
+
+    // ログ出力用：Timber
+    implementation 'com.jakewharton.timber:timber:5.0.1'
+
+    // テスト用。
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}

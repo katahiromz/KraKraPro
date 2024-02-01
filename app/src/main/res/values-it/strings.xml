@@ -1,0 +1,21 @@
+<!-- {{LANGUAGE_SPECIFIC}} -->
+<resources>
+    <!-- common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Annulla</string>
+    <string name="clear">Chiara</string>
+    <string name="reset">Ripristina</string>
+    <string name="needs_microphone">Questa app necessita dell\'autorizzazione per accedere al microfono.</string>
+    <string name="cant_use_microphone">Questa app non può utilizzare il microfono senza autorizzazione.</string>
+    <string name="needs_camera">Questa app necessita dell\'autorizzazione per accedere alla fotocamera.</string>
+    <string name="cant_use_camera">Questa app non può utilizzare la fotocamera senza autorizzazione.</string>
+
+    <!-- main -->
+    <string name="app_name">KraKra Pro</string>
+    <string name="web_view">WebView</string>
+    <string name="progress_bar">ProgressBar</string>
+    <string name="now_starting">Avvio di KraKra...</string>
+
+    <!-- URLs -->
+    <string name="url">file:///android_asset/index.html</string>
+</resources>
