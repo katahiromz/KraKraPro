@@ -28,6 +28,8 @@ const trans_getDefaultSkin = function(){
 // {{LANGUAGE_SPECIFIC}} {{COLOR_SPECIFIC}}
 const trans_getStyleSheet = function(){
 	switch (trans_skin){
+	case 'blackwhite':
+		return 'css/blackwhite.css';
 	case 'golden':
 		return 'css/golden.css';
 	case 'purple':
@@ -70,6 +72,14 @@ const trans_getColor = function(colorName){
 		case 'COLOR_DUMMYPAGECOLOR1': return 'rgba(255, 255, 0, 1.0)';
 		case 'COLOR_1ST': return '#ffff00';
 		case 'COLOR_2ND': return '#666600';
+		}
+		break;
+	case 'blackwhite':
+		switch (colorName){
+		case 'COLOR_DUMMYPAGECOLOR0': return 'rgba(0, 0, 0, 0.0)';
+		case 'COLOR_DUMMYPAGECOLOR1': return 'rgba(255, 255, 255, 1.0)';
+		case 'COLOR_1ST': return '#ffffff';
+		case 'COLOR_2ND': return '#000000';
 		}
 		break;
 	case 'pink':
@@ -1739,6 +1749,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_button_init_app, "初期化");
 		trans_setHtmlText(sai_id_text_label_message_volume, "メッセージボイスの音量:");
 		trans_setHtmlText(sai_id_text_skin, "スキン:");
+		trans_setSelectOptionText(sai_id_select_skin, 'blackwhite', '白黒');
 		trans_setSelectOptionText(sai_id_select_skin, 'golden', '金色');
 		trans_setSelectOptionText(sai_id_select_skin, 'purple', '紫色');
 		trans_setSelectOptionText(sai_id_select_skin, 'blue', '青色');
@@ -1830,6 +1841,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_button_init_app, "初始化");
 		trans_setHtmlText(sai_id_text_label_message_volume, "留言音量：");
 		trans_setHtmlText(sai_id_text_skin, "皮肤：");
+		trans_setSelectOptionText(sai_id_select_skin, 'blackwhite', '黑与白');
 		trans_setSelectOptionText(sai_id_select_skin, 'golden', '金的');
 		trans_setSelectOptionText(sai_id_select_skin, 'purple', '紫色的');
 		trans_setSelectOptionText(sai_id_select_skin, 'blue', '蓝色的');
@@ -1921,6 +1933,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_button_init_app, "初始化");
 		trans_setHtmlText(sai_id_text_label_message_volume, "留言音量：");
 		trans_setHtmlText(sai_id_text_skin, "皮膚：");
+		trans_setSelectOptionText(sai_id_select_skin, 'blackwhite', '黑與白');
 		trans_setSelectOptionText(sai_id_select_skin, 'golden', '金的');
 		trans_setSelectOptionText(sai_id_select_skin, 'purple', '紫色的');
 		trans_setSelectOptionText(sai_id_select_skin, 'blue', '藍色的');
@@ -2012,6 +2025,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_button_init_app, "앱 재설정");
 		trans_setHtmlText(sai_id_text_label_message_volume, "메시지 음성 음량:");
 		trans_setHtmlText(sai_id_text_skin, "스킨:");
+		trans_setSelectOptionText(sai_id_select_skin, 'blackwhite', '흑백');
 		trans_setSelectOptionText(sai_id_select_skin, 'golden', '황금');
 		trans_setSelectOptionText(sai_id_select_skin, 'purple', '보라색');
 		trans_setSelectOptionText(sai_id_select_skin, 'blue', '청색');
@@ -2103,6 +2117,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_button_init_app, "Inizializzare");
 		trans_setHtmlText(sai_id_text_label_message_volume, "Volume della voce:");
 		trans_setHtmlText(sai_id_text_skin, "Pelle:");
+		trans_setSelectOptionText(sai_id_select_skin, 'blackwhite', '白黒');
 		trans_setSelectOptionText(sai_id_select_skin, 'golden', 'd\'Oro');
 		trans_setSelectOptionText(sai_id_select_skin, 'purple', 'Viola');
 		trans_setSelectOptionText(sai_id_select_skin, 'blue', 'Blu');
@@ -2194,6 +2209,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_button_init_app, "Initialisieren");
 		trans_setHtmlText(sai_id_text_label_message_volume, "Stimmen Lautstärke:");
 		trans_setHtmlText(sai_id_text_skin, "Haut:");
+		trans_setSelectOptionText(sai_id_select_skin, 'blackwhite', 'Bianco e nero');
 		trans_setSelectOptionText(sai_id_select_skin, 'golden', 'Golden');
 		trans_setSelectOptionText(sai_id_select_skin, 'purple', 'Lila');
 		trans_setSelectOptionText(sai_id_select_skin, 'blue', 'Blau');
@@ -2285,6 +2301,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_button_init_app, "Inicialización");
 		trans_setHtmlText(sai_id_text_label_message_volume, "Volumen de voz del mensaje:");
 		trans_setHtmlText(sai_id_text_skin, "Piel:");
+		trans_setSelectOptionText(sai_id_select_skin, 'blackwhite', 'Schwarz und weiß');
 		trans_setSelectOptionText(sai_id_select_skin, 'golden', 'Dorado');
 		trans_setSelectOptionText(sai_id_select_skin, 'purple', 'Púrpura');
 		trans_setSelectOptionText(sai_id_select_skin, 'blue', 'Azul');
@@ -2376,6 +2393,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_button_init_app, "Инициализация");
 		trans_setHtmlText(sai_id_text_label_message_volume, "Громкость голоса сообщения:");
 		trans_setHtmlText(sai_id_text_skin, "Кожа:");
+		trans_setSelectOptionText(sai_id_select_skin, 'blackwhite', 'Черное и белое');
 		trans_setSelectOptionText(sai_id_select_skin, 'golden', 'Золотой');
 		trans_setSelectOptionText(sai_id_select_skin, 'purple', 'Фиолетовый');
 		trans_setSelectOptionText(sai_id_select_skin, 'blue', 'Синий');
@@ -2467,6 +2485,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_button_init_app, "Initialize");
 		trans_setHtmlText(sai_id_text_label_message_volume, "Message voice volume:");
 		trans_setHtmlText(sai_id_text_skin, "Skin:");
+		trans_setSelectOptionText(sai_id_select_skin, 'blackwhite', 'Black and White');
 		trans_setSelectOptionText(sai_id_select_skin, 'golden', 'Golden');
 		trans_setSelectOptionText(sai_id_select_skin, 'purple', 'Purple');
 		trans_setSelectOptionText(sai_id_select_skin, 'blue', 'Blue');
