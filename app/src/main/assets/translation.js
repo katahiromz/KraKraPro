@@ -1740,7 +1740,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_page_config_header, '設定');
 		trans_setHtmlText(sai_id_text_label_message_text, 'メッセージ テキスト:');
 		trans_setHtmlText(sai_id_button_message, 'メッセージ...');
-		trans_setHtmlText(sai_id_button_start_hypnosis, '催眠開始...');
+		trans_setHtmlText(sai_id_button_start_hypnosis, '催眠スタート');
 		trans_setHtmlText(sai_id_button_release_hypnosis, '催眠解除');
 		trans_setHtmlText(sai_id_text_count_down, 'カウントダウン:');
 		trans_setHtmlText(sai_id_text_label_message_speech, 'メッセージをしゃべる:');
@@ -1832,7 +1832,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_page_config_header, '配置');
 		trans_setHtmlText(sai_id_text_label_message_text, '留言内容：');
 		trans_setHtmlText(sai_id_button_message, '信息...');
-		trans_setHtmlText(sai_id_button_start_hypnosis, '开始催眠...');
+		trans_setHtmlText(sai_id_button_start_hypnosis, '开始催眠');
 		trans_setHtmlText(sai_id_button_release_hypnosis, '释放催眠');
 		trans_setHtmlText(sai_id_text_count_down, '倒数：');
 		trans_setHtmlText(sai_id_text_label_message_speech, '留言演讲：');
@@ -1924,7 +1924,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_page_config_header, '配置');
 		trans_setHtmlText(sai_id_text_label_message_text, '留言內容：');
 		trans_setHtmlText(sai_id_button_message, '訊息...');
-		trans_setHtmlText(sai_id_button_start_hypnosis, '開始催眠...');
+		trans_setHtmlText(sai_id_button_start_hypnosis, '開始催眠');
 		trans_setHtmlText(sai_id_button_release_hypnosis, '釋放催眠');
 		trans_setHtmlText(sai_id_text_count_down, '倒數：');
 		trans_setHtmlText(sai_id_text_label_message_speech, '留言演講：');
@@ -2016,7 +2016,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_page_config_header, '구성');
 		trans_setHtmlText(sai_id_text_label_message_text, '메시지 텍스트:');
 		trans_setHtmlText(sai_id_button_message, '메시지...');
-		trans_setHtmlText(sai_id_button_start_hypnosis, '최면 시작...');
+		trans_setHtmlText(sai_id_button_start_hypnosis, '최면 시작');
 		trans_setHtmlText(sai_id_button_release_hypnosis, '최면 해제');
 		trans_setHtmlText(sai_id_text_count_down, '카운트다운:');
 		trans_setHtmlText(sai_id_text_label_message_speech, '메시지 연설:');
@@ -2108,7 +2108,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_page_config_header, 'Configurazione');
 		trans_setHtmlText(sai_id_text_label_message_text, 'Messaggio di testo:');
 		trans_setHtmlText(sai_id_button_message, 'Messaggio...');
-		trans_setHtmlText(sai_id_button_start_hypnosis, 'Inizia l\'ipnosi...');
+		trans_setHtmlText(sai_id_button_start_hypnosis, 'Inizia l\'ipnosi');
 		trans_setHtmlText(sai_id_button_release_hypnosis, 'Rilascia l\'ipnosi');
 		trans_setHtmlText(sai_id_text_count_down, 'Conto alla rovescia:');
 		trans_setHtmlText(sai_id_text_label_message_speech, 'Discorso del messaggio:');
@@ -2200,7 +2200,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_page_config_header, 'Aufbau');
 		trans_setHtmlText(sai_id_text_label_message_text, 'Nachrichtentext:');
 		trans_setHtmlText(sai_id_button_message, 'Nachricht...');
-		trans_setHtmlText(sai_id_button_start_hypnosis, 'Hypnose beginnen...');
+		trans_setHtmlText(sai_id_button_start_hypnosis, 'Hypnose beginnen');
 		trans_setHtmlText(sai_id_button_release_hypnosis, 'Hypnose loslassen');
 		trans_setHtmlText(sai_id_text_count_down, 'Countdown:');
 		trans_setHtmlText(sai_id_text_label_message_speech, 'Nachrichtenansprache:');
@@ -2292,7 +2292,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_page_config_header, 'Configuración');
 		trans_setHtmlText(sai_id_text_label_message_text, 'Mensaje de texto:');
 		trans_setHtmlText(sai_id_button_message, 'Mensaje...');
-		trans_setHtmlText(sai_id_button_start_hypnosis, 'Iniciar la hipnosis...');
+		trans_setHtmlText(sai_id_button_start_hypnosis, 'Iniciar la hipnosis');
 		trans_setHtmlText(sai_id_button_release_hypnosis, 'Iiberar hipnosis');
 		trans_setHtmlText(sai_id_text_count_down, 'Cuenta regresiva:');
 		trans_setHtmlText(sai_id_text_label_message_speech, 'Di el mensaje:');
@@ -2384,7 +2384,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_page_config_header, 'Параметр');
 		trans_setHtmlText(sai_id_text_label_message_text, 'Текст сообщения:');
 		trans_setHtmlText(sai_id_button_message, 'Сообщение...');
-		trans_setHtmlText(sai_id_button_start_hypnosis, 'Начать гипноз...');
+		trans_setHtmlText(sai_id_button_start_hypnosis, 'Начать гипноз');
 		trans_setHtmlText(sai_id_button_release_hypnosis, 'Освободиться от гипноза');
 		trans_setHtmlText(sai_id_text_count_down, 'Обратный отсчет:');
 		trans_setHtmlText(sai_id_text_label_message_speech, 'Произнесите сообщение:');
@@ -2476,7 +2476,7 @@ const trans_localize = function(lang){
 		trans_setHtmlText(sai_id_page_config_header, 'Configuration');
 		trans_setHtmlText(sai_id_text_label_message_text, 'Message Text:');
 		trans_setHtmlText(sai_id_button_message, 'Message...');
-		trans_setHtmlText(sai_id_button_start_hypnosis, 'Start Hypnosis...');
+		trans_setHtmlText(sai_id_button_start_hypnosis, 'Start Hypnosis');
 		trans_setHtmlText(sai_id_button_release_hypnosis, 'Release Hypnosis');
 		trans_setHtmlText(sai_id_text_count_down, 'Count Down:');
 		trans_setHtmlText(sai_id_text_label_message_speech, 'Message Speech:');
